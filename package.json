@@ -14,8 +14,8 @@
     "test:coverage": "nyc npm test"
   },
   "preferGlobal": true,
-  "bin":{
-    "btccli":"bin/main.js"
+  "bin": {
+    "btccli": "bin/main.js"
   },
   "nyc": {
     "reporter": [
@@ -53,5 +53,8 @@
     "mocha": "^3.2.0",
     "nyc": "^10.2.0",
     "rimraf": "^2.6.1"
+  },
+  "dependencies": {
+    "commander": "^2.18.0"
   }
 }
