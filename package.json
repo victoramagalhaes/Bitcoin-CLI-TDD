@@ -55,6 +55,10 @@
     "rimraf": "^2.6.1"
   },
   "dependencies": {
-    "commander": "^2.18.0"
+    "commander": "^2.18.0",
+    "nock": "^10.0.0",
+    "request": "^2.88.0",
+    "sinon": "^6.3.5",
+    "sinon-chai": "^3.2.0"
   }
 }
